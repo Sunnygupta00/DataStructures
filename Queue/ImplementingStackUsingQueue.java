@@ -2,7 +2,6 @@ package queue;
 
 import java.util.Stack;
   class StackQueue {
-
     Stack<Integer> input = new Stack();
     Stack<Integer> output = new Stack();
     
