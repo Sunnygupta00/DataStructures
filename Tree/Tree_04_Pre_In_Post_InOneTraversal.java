@@ -61,17 +61,27 @@ public class Tree_04_Pre_In_Post_InOneTraversal {
      }
 
 	public static void main(String[] args) {
+		/*
+        1
+      /   \
+    2       3
+  /   \    /  \
+ 4     5  7     8
+        \     /  \
+         6   9    10   
 
-		Node root = new Node(1);
-		root.Left = new Node(2);
-		root.Right = new Node(3);
-		root.Left.Left = new Node(4);
-		root.Left.Right = new Node(5);
-		root.Right.Right = new Node(8);
-		root.Right.Left = new Node(7);
-		root.Left.Right.Right = new Node(6);
-		root.Right.Right.Left = new Node(9);
-		root.Right.Right.Right = new Node(10);
+ */
+
+Node root = new Node(1);
+root.Left = new Node(2);
+root.Right = new Node(3);
+root.Left.Left = new Node(4);
+root.Left.Right = new Node(5);
+root.Right.Right = new Node(8);
+root.Right.Left = new Node(7);
+root.Left.Right.Right = new Node(6);
+root.Right.Right.Left = new Node(9);
+root.Right.Right.Right = new Node(10);
 
 	  alltraverse(root);
 
