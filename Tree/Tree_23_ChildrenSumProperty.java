@@ -1,9 +1,9 @@
 package tree;
 import java.util.*;
 public class Tree_23_ChildrenSumProperty {
-	// basic idea:if root ke child use choote hai toh root ki value put kr do child me
-	//            aur agar root ki value choti hai toh root ka data update kr do sum se
-	//  at last assign all child value in root
+	// basic idea:
+    //	           WE ARE CHEKING IF SUM OF CHILD NODE IS GRETER THAN PARENT UPDATE PARENT ELSE UPDATE KIDS WITH PARENT VALUE
+	//             AT LAST PUT THE SUM OF VALUES OF KIDS TO ITS PARENT NODE 
      static void childsum(Node root)
      {
     	 if(root==null)return;
