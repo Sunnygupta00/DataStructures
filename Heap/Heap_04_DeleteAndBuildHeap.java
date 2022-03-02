@@ -19,7 +19,7 @@ public class Heap_04_DeleteAndBuildHeap {
 		int x=Minextract(arr);
 //		System.out.println(x);
 	}
-	
+	// HERE WE ARE EXTRACTING MINIMUM ELEMENT FROM ARRAY
 	static int  Minextract(int arr[]) {
 		if(size==0) {
 			return Integer.MIN_VALUE;
