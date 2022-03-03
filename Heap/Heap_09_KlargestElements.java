@@ -17,15 +17,11 @@ public class Heap_09_KlargestElements {
 			pq.add(arr[i]);
 		}
 		for(int i=k;i<arr.length;i++) {
-			
+			// IF OUR ELEMENT IS GREATER THAN PEEK THAN POLL()
 			if(arr[i]>pq.peek()) {
 			   pq.poll();
 			   pq.add(arr[i]);
-			   k--;
-			}
-			if(k==0) {
-				return pq.peek();
-			}
+			 }
 			
 		}
 		return pq.peek();
