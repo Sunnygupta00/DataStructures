@@ -1,0 +1,7 @@
+https://leetcode.com/problems/design-hashset/
+
+BRUTE FORCE:
+USING FIXED SIZEARRAY
+
+OPTIMAL SOLUTION :
+USING LINKEDLIST
