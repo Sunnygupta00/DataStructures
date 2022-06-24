@@ -1,0 +1,8 @@
+https://leetcode.com/problems/copy-list-with-random-pointer/
+// BRUTE FORCE : USE HASHMAP
+  STORE <ORIGNAL, CLONE> DATA OF EACH NODE
+  THEN COPY RANDOM AND NEXT 
+  
+ // OPTIMAL : PLACE NODES B/W THEM AND THEN TRY TO COPY EACH THING 
+              AND AT LAST REMOVE IT FROM THE ORIGINAL LIST
+    
