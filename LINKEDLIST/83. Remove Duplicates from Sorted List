@@ -1,0 +1,3 @@
+https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+HINT : MOVE ONE STEP IF NEXT VAL IS NOT EQUAL 
+       ELSE SKIP IT
