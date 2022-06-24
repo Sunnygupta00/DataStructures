@@ -1,0 +1,6 @@
+https://leetcode.com/problems/palindrome-linked-list/
+// BRUTE FORCE: USING STACK
+               * ADDING ALL THE VALUES IN THE STACK
+               * NOW POP IT AND COMPARE IT IF NOT EQUAL RETURN FALSE
+// OPTIMAL SOLUTION : REVERSE HALF PART AND THEN COMPARE IT               
+               
